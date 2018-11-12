@@ -1,0 +1,101 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding-top: 2rem;
+  overflow-x: hidden;
+}
+
+.sobreContainer{
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.logo2{
+  margin: auto;
+  display: block;
+}
+
+.down-arrow{
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+  border-top: 8px solid #ef7b0b;
+  width: 0;
+  height: 0;
+  position: relative;
+  display: block;
+  margin: auto;
+}
+
+.contact{
+  color: black;
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+
+.logo{
+  width: 26rem;
+  padding-right: 0.25rem;
+  float: right;
+}
+
+#nav{
+  list-style: none;  
+}
+
+#nav li{
+  display: inline-block;
+  font-weight: bold;
+}
+
+#carousel{
+  padding-top: 5rem;
+}
+
+#jumbotron{
+  padding-left: 5rem;
+}
+
+header{
+  padding-top: 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+}
+
+section{
+  padding: 8rem 8rem 2rem 8rem;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+p, li{
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+footer{
+  background-color: darkcyan;
+  color: white;
+  padding: 2rem 10rem;
+}
+
+footer a{
+  color: white;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.red{
+  color: lightcoral;
+}
+
+.blue{
+  color: lightskyblue;
+}
+
+h2{
+  color: orangered !important;
+}

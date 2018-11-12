@@ -1,0 +1,31 @@
+<div id="jumbotron" class="jumbotron jumbotron-fluid">
+  <h1 class="display-4">{{content.fields.text1}}</h1>
+  <p class="lead">{{content.fields.text2}}</p>
+  <hr class="my-4">
+  <p>{{content.fields.text3}}</p>
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal">
+    {{content.fields.btnText}}
+  </button>
+</div>
+
+<div id="modal" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">{{content.fields.modalTitle}}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>{{content.fields.modalText}}</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">{{content.fields.modalBtn1}}</button>
+        <a id="regreso" class="btn btn-primary btn-lg" href="/" role="button" data-toggle="tooltip" data-placement="top" title="Click para volver a Imvixa">
+          {{content.fields.modalBtn2}}
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
