@@ -26,7 +26,7 @@ function loadStartContent2(res, page, id) {
   });
 }
 
-function loadStartContent(res, page, id) {
+/*function loadStartContent(res, page, id) {
   var header = process.env.headerId;
   var footer = process.env.footerId;
 
@@ -53,5 +53,5 @@ function loadStartContent(res, page, id) {
       error: e,
     });
   });
-}
+}*/
 module.exports = router;
