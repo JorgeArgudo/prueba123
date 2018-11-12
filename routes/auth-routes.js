@@ -4,7 +4,7 @@ var express = require('express');
 var router = express.Router();
 
 // START
-router.get('/', (res) => {
+router.get('/', (req, res) => {
   loadStartContent(res, 'helloWorld', process.env.helloWorldId);
 });
 
